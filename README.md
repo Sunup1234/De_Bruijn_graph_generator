@@ -25,4 +25,4 @@ The 5 main steps of this pipeline are:
 You can test the script right away by generating your first De Bruijn graph using the provided `Data/Exemple.fastq` file:
 
 ```bash
-python TP_De_Bruijn_graph.p
+python TP_De_Bruijn_graph.py

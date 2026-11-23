@@ -19,4 +19,10 @@ The 5 main steps of this pipeline are:
 4. **Eulerian Path Traversal:** Finding a path through the graph to reconstruct the contiguous sequence (contig).
 5. **Graph Export:** Exporting the network structure into a standard `.dot` file.
 
-> **Tip for Visualization:** You can render and explore the generated `.dot` file directly in VS Code using the **Graphviz Interactive Preview** extension, or paste its contents into an online viewer like [Edotor](https://edotor.net/).
+### Quick Start
+You can test the script right away by generating your first De Bruijn graph using the provided `Data/Exemple.fastq` file:
+
+```bash
+python TP_De_Bruijn_graph.py
+
+> **Tip for Visualization:** You can render and explore the generated `.dot` file directly in VS Code using the **Graphviz Interactive Preview** extension, or paste its contents into an online viewer like [Edotor](https://edotor.net/). You can also launch a first deburinj graph using the Exemple.fastq file 
